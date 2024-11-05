@@ -1,0 +1,41 @@
+.problem-description {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabs button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.tabs button.active {
+  background-color: #0073e6;
+  color: white;
+  border-color: #0073e6;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #e8e2e2;
+  color:rgb(4, 4, 4);
+}
+
+.tab-content h3 {
+  margin-top: 0;
+  color:rgb(7, 7, 7);
+}

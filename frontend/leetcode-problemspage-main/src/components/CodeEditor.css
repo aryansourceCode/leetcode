@@ -1,0 +1,30 @@
+/* src/components/CodeEditor.css */
+.code-editor {
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.test-cases {
+  margin-top: 20px;
+  background-color: #2e2e2e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.output {
+  margin-top: 20px;
+  background-color: #2e2e2e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h3 {
+  color: #f0f0f0;
+}
+
+pre {
+  color: #ffffff;
+  font-size: 16px;
+}

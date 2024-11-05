@@ -1,0 +1,25 @@
+/* ProblemsPage.css */
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabs button {
+  padding: 0.5rem 1rem;
+  background-color: #2a2424;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs button:hover,
+.tabs button:focus,
+.tabs button.active {
+  background-color: #957c7c;
+}
+
+.tab-content {
+  border-top: 1px solid #6f4f4f;
+  padding-top: 1rem;
+}
